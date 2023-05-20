@@ -1,0 +1,45 @@
+.container {
+  width: 500px;
+  height: 400px;
+  overflow-y: auto;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.uname {
+  color: darkgray;
+}
+
+.unorli ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding-top: 5px;
+  text-decoration: none;
+}
+
+ul li:first-child {
+  border-top: none;
+  padding-top: 0;
+}
+
+ul li img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+ul li span {
+  padding-left: 1cm;
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}

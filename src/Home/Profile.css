@@ -1,0 +1,14 @@
+h2 {
+  position: absolute;
+  top: 0.35cm;
+  left: 2.5cm;
+  margin: 0;
+  color: darkgrey;
+}
+.line {
+  width: 100%;
+  border-bottom: 2px solid darkgrey;
+  position: absolute;
+  top: 1.25cm;
+  left: 2.5cm;
+}

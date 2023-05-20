@@ -1,0 +1,137 @@
+.conatainer1 {
+  width: 100vw;
+  height: 100vh;
+}
+.details5-button {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.details5-img {
+  width: 30px; /* Adjust the size according to your preference */
+  height: 30px; /* Adjust the size according to your preference */
+  border-radius: 50%;
+}
+
+.details5-name {
+  margin-left: 8px; /* Adjust the spacing between the image and text */
+}
+.details5-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Center align the content */
+}
+
+.details6-img {
+  width: 150px; /* Adjust the size as desired */
+  height: 150px; /* Adjust the size as desired */
+  display: block;
+  margin: 0 auto 10px; /* Center align the image horizontally and add margin at the bottom */
+  border-radius: 50%; /* Make the image round */
+  object-fit: cover; /* Ensure the image fills the container without distorting its aspect ratio */
+}
+
+.details6-name {
+  top: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.det6-but {
+  padding: 8px 16px;
+  background-color: #f00;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block; /* Display the button as a block element */
+  margin: 0 auto;
+}
+
+.user-info {
+  position: absolute;
+  color: darkgrey;
+
+  margin-left: 5cm;
+  align-items: center;
+  margin-top: 4.2cm;
+}
+
+.imname img {
+  width: 150px; /* Adjust the size according to your preference */
+  height: 150px; /* Adjust the size according to your preference */
+  border-radius: 50%;
+}
+.imname {
+  display: flex;
+  /*align-items: center;*/
+  margin-left: 5cm;
+  margin-top: 3cm;
+}
+
+.details1 {
+  position: absolute;
+  text-align: left;
+
+  margin-left: 4.7cm;
+  margin-top: 0.8cm;
+}
+.cname {
+  color: darkgrey;
+}
+.details2 {
+  position: absolute;
+  text-align: left;
+  margin-left: 4.7cm;
+  margin-top: 4.3cm;
+}
+.hline {
+  position: absolute;
+  top: 1.8cm; /* Adjust the value to set the gap at the top */
+  left: 50%;
+  bottom: 3cm;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 100%;
+  background-color: grey;
+}
+.details3 {
+  position: absolute;
+  text-align: left;
+  top: 3cm;
+  right: 17cm;
+}
+
+.details4 {
+  position: absolute;
+  text-align: left;
+  font-size: 12px;
+  top: 14cm;
+  right: 2cm;
+}
+.map {
+  position: absolute;
+  top: 8.15cm;
+  right: 4cm;
+}
+.map img {
+  width: 430px;
+  height: 230px;
+  border-radius: 10px;
+}
